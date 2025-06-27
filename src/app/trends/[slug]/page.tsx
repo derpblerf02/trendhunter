@@ -2,7 +2,7 @@
 'use client'
 
 import { useParams } from 'next/navigation';
-import { suggestArtists, generatePalette } from '@/../services/style-recommender/src';
+import { suggestArtists, generatePalette } from 'services/style-recommender/src';
 import ArtistCard from '@/app/components/ArtistCard';
 
 export default function TrendDetail() {
