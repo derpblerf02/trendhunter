@@ -3,7 +3,7 @@
 
 import { useParams } from 'next/navigation';
 import { suggestArtists, generatePalette } from 'services/style-recommender/src';
-import ArtistCard from '@/app/components/ArtistCard';
+import ArtistCard from '@/components/ArtistCard';
 
 export default function TrendDetail() {
   const params = useParams();

@@ -3,7 +3,7 @@
 
 import useSWR from 'swr';
 import TrendCard from '@/app/components/TrendCard';
-import { fetchTrends } from 'services/trend-engine/src';
+import { fetchTrends } from '@/services/trend-engine/src';
 
 export default function Dashboard() {
   const { data: trends } = useSWR('/api/trends', fetchTrends);
